@@ -2,7 +2,8 @@
 
 namespace Spatie\Permission\Traits;
 
-use Illuminate\Database\Eloquent\Builder;
+
+use MongoDB\Laravel\Eloquent\Builder;
 use Illuminate\Database\Eloquent\Relations\BelongsToMany;
 use Illuminate\Support\Arr;
 use Illuminate\Support\Collection;
