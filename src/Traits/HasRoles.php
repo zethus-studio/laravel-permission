@@ -402,7 +402,7 @@ trait HasRoles
     {
         $this->loadMissing('roles');
 
-        return $this->roles->pluck('name');
+        return $this->roles->pluck('display_name');
     }
 
     protected function getStoredRole($role): Role
